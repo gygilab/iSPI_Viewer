@@ -1,0 +1,7 @@
+File Name	Subpool ID	Key 1	Key 2	Key 3
+File_1	2	TMTpro	Ascore	CID
+File_2	3	TMTpro	Ascore Pro	HCD
+File_3	8	TMTpro	Ascore	MSA
+File_4	2	LF	Ascore Pro	MSA
+File_5	3	LF	Ascore	CID
+File_6	8	LF	Ascore Pro	HCD

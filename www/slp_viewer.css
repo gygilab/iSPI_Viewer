@@ -1,0 +1,51 @@
+.competition-ratio.liganded {
+	color: red;
+}
+
+.competition-ratio.below-threshold {
+	color: blue;
+}
+
+.competition-ratio.quantified {
+	color: black;
+}
+
+.competition-ratio {
+	color: black;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+    font-weight: 400;
+	overflow-x: hidden;
+}
+
+/*------------------------------------*\
+	Navbar
+\*------------------------------------*/
+.navbar-default .navbar-brand {color: darkred;}
+.navbar-default .navbar-brand:hover {color: darkred;}
+.navbar { background-color: #efeeee;}
+.navbar-default .navbar-nav > li > a {color:black;}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {color: white;background-color: #908989;}
+.navbar-default .navbar-nav > li > a:hover {color: black;background-color:white;}
+
+.nav.nav-pills.nav-stacked > .active > a, .nav.nav-pills.nav-stacked > .active > a:hover {
+	background-color: #d52b1e;
+}
+    
+.well {
+  min-height: 20px;
+  max-width: 200px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #e1e1e1;
+  color: white;
+}
+
+#comp_nav {
+    display: block !important;
+}
