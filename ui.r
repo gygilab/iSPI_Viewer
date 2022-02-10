@@ -159,6 +159,3 @@ ui <-
     )
   )
 
-
-
-ui <- secure_app(ui, language = "en")

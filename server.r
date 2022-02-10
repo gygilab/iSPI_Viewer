@@ -1,8 +1,4 @@
 server<-function(input,output,session){
-  secure_server(check_credentials=check_credentials(credentials),timeout=360)
-  observe({
-    if (is.null(input$shinymanager_where)||(!is.null(input$shinymanager_where)&&input$shinymanager_where %in% "application")){
-
   values<-reactiveValues()
   values$locfiles<-vector("list")
   values$metafile<-NULL
@@ -126,10 +122,6 @@ server<-function(input,output,session){
     }
   })
 
-
   ##download sample tables
   output$download1<-renderText({"Download Sample Tables"})
 }
-  }
-  )
-  }

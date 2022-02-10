@@ -8,8 +8,6 @@ phoslib<-readRDS("phoslib/Library_wTryptic_pep.rds")
 
 
 ###############################################################################
-credentials <- data.frame(user = "iSPI",password = "iSPI",stringsAsFactors = FALSE)
-
 process_indi_locfile<-function(locfile,subpool,phos_symbol="#",phoslib=phoslib,cutoff,fname){
   cutoff<-gsub(" ","", unlist(strsplit(cutoff,split=";")))
   cutoff<-na.omit(as.numeric(cutoff))
