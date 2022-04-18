@@ -1,8 +1,7 @@
-library(shiny)
+
 library(ggplot2)
 library(ggrepel)
 library(dplyr)
-library(shinymanager)
 options(shiny.maxRequestSize=500*1024^2)
 phoslib<-readRDS("phoslib/Library_wTryptic_pep.rds")
 
